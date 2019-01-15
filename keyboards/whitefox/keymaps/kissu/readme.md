@@ -13,3 +13,8 @@ Todo
 - [ ] see how the `Shift` layer impacts the whole system, and if it's not better to just send regular unicode scancodes
 - [ ] finish reading [the cool blog](https://thomasbaart.nl/category/mechanical-keyboards/firmware/qmk/qmk-basics/)
 - [ ] **finish** the damn Carpalx pages and choose if I want an `Halmak` or one alternative, when done, I guess making the layout somewhere would be a nice idea
+
+## Type Fu setup
+This is how you should proceed to add any kind of keymap to the app !
+
+This is the commadn to find out the place in which the config files of `Type Fu` are stored: `grep -rnwl ~/.config/google-chrome/Default/Extensions -e "proverbs-en"`, something like `...id/versions/layouts`
