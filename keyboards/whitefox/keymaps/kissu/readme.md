@@ -4,7 +4,7 @@
 
 Start by making some custom stuff with the layout, when done, simply run `make whitefox:kissu`.
 
-Then `sleep 10 && dfu-util -D whitefox_kissu.bin` optionnaly, append: `-S mk20dx256vlh7` or `-j8` (use 8 cores) too. During the 10 seconds delay, rush to the button to enter `DFU` state.
+Then `sleep 10 && dfu-util -D whitefox_kissu.bin` optionnaly, append `-S mk20dx256vlh7`. During the 10 seconds delay, rush to the button to enter `DFU` state.
 
 ⚠️ For some reason, my newly fresh `RESET` (right fn + print screen) button is not working... (download fails) ⚠️
 
